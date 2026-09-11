@@ -12,5 +12,6 @@
 | 03 | [Compose Article](03-compose-article) | 여러 `Text`를 `Column`으로 배치, `TextAlign.Justify`, 데이터를 파라미터로 받는 컴포저블 분리, `modifier` 전달 관례 |
 | 04 | [Task Manager](04-task-manager) | `Arrangement.Center` + `Alignment.CenterHorizontally`로 화면 정중앙 배치, `FontWeight`로 굵기 지정, `compileSdk` / `targetSdk` / `minSdk`의 차이 |
 | 05 | [Compose Quadrant](05-compose-quadrant) | `Modifier.weight`로 공간을 비율 분할, `Column` + `Row` 중첩으로 격자 배치, `modifier`를 안 넘겼을 때 `weight`가 사라지는 버그 |
+| 06 | [Business Card](06-business-card) | `weight`로 가운데 + 아래 배치, 정렬 단위를 맞추려 Column으로 묶기, Material 아이콘 의존성과 import 함정, 색상의 알파 채널 |
 
 자세한 학습 메모는 각 프로젝트 폴더의 README에 있습니다.
